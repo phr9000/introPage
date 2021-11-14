@@ -13,8 +13,15 @@ const routes = [
     children: [
       {
         path: "home",
-        name: "홈",
+        name: "레이아웃",
         component: PageLayout,
+        children: [
+          {
+            path: "main",
+            name: "대시보드",
+            component: () => import("@/views/main/Main.vue"),
+          },
+        ],
       },
     ],
   },
