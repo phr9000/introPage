@@ -13,6 +13,7 @@
           <div class="contents_area"></div>
         </div>
       </div>
+
       <div class="section2"></div>
     </div>
   </div>
